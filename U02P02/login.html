@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio de sesión</title>
+</head>
+<body>
+    <h1>Datos para inicio de sesión</h1>
+    <p>A continuación ingrese los datos requeridos para crear su cuenta, completando cada campo con la información correspondiente</p>
+    <form action="/accion.php">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre"/>
+
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" name="apellido"/>
+
+        <label for="email">Email</label>
+        <input type="text" name="email" id="email">
+
+        <label for="checkbox">Recordar datos</label>
+        <input type="checkbox" name="checkbox" id="checkbox">
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
