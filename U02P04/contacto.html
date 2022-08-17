@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <!-- Encabezado -->
+    <header>
+        <h1>Ultimas Noticias del Mundo del Rugby</h1>
+    </header>
+
+    <div class="container">
+        <!-- Navegación / contenedor izquierdo-->
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="multimedia.html">Multimedia</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+        <!-- Contenedor principal-->
+        <main>
+            <section>
+                <h2>Contacto</h2>
+                <table>
+                    <tr>
+                    <form action="accion.php" method="post" target="_blank">
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" name="nombre" id="nombre" required>
+                        <br>
+                        <label for="email">Email:</label>
+                        <input type="text" name="email" id="email" required>
+                        <br>
+                        <label for="edad">Edad:</label>
+                        <input type="number" name="edad" id="edad">
+                        <br>
+                        <label for="color">Color preferido:</label>
+                        <input type="text" name="color" id="color">
+                        <br>
+                        <label for="comentario">Comentario:</label>
+                        <input type="text" name="color" id="color" minlength="10">
+                        <br>
+                        <input type="submit" value="Submit">
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3347.8702575068937!2d-60.645925949995025!3d-32.95443468082514!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b7ab11d0eb49c3%3A0x11f1d3d54f950dd0!2sUniversidad%20Tecnol%C3%B3gica%20Nacional%20%7C%20Facultad%20Regional%20Rosario!5e0!3m2!1ses-419!2sar!4v1660756435030!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </form> 
+                    </tr>
+                </table>
+            </section>
+        </main>
+        <!-- Contenedor secundario / derecho-->
+        <div class="right">
+        <h2>Info</h2>
+        <img src="https://images.ole.com.ar/2022/08/05/fO5DhQ4Gi_340x340__1.jpg" alt="pumas" width="250px" height="400px">
+        <p>Los Pumas debutan en el Rugby Championship: la cabeza en el torneo, pero la mira en el Mundial</p>
+        </div>
+    </div>
+    <!-- Pie de Página -->
+    <footer>
+        <p>©Derechos de autor reservados</p>
+        <p>ⓇMundo del Rugby</p>
+    </footer>
+</body>
+</html>
