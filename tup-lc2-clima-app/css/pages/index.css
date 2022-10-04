@@ -1,0 +1,32 @@
+#section-weather-result {
+    text-align: center;
+    line-height: 32px; 
+}
+
+.card {
+    border-radius: 40px;
+    border-width: 0px;
+    border-style: groove;
+    box-shadow: 2px 2px 2px 3px rgba(0, 0, 0, 0.301);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-bottom: 25px;
+}
+
+#ciudades {
+    border-radius: 5px;
+    padding: 5px;
+}
+
+form input {
+    border-radius: 7px;
+    padding: 7px;
+    background-color: #00594c;
+    border-width: 0px;
+    color: white;
+    font-weight: 600;
+    padding-right: 12px;
+    padding-left: 12px;
+}

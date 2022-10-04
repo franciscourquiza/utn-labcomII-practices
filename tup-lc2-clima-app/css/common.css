@@ -35,6 +35,14 @@ header {
     top: 0;
     width: 100%;
     background: var(--color-theme);
+    border-style: ridge;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-width: 0px;
+    border-bottom: 20px var(--color-active);
+    box-shadow: 0px -2px 0px 4px var(--color-active);
+    background: linear-gradient(to right, var(--color-theme),var(--color-back-active));;
+    
 }
 
 nav>ul {
@@ -62,6 +70,8 @@ nav li.current-page a {
     color: var(--color-theme);
     background-color: var(--color-active);
     pointer-events: none;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
 }
 
 main {
@@ -98,6 +108,10 @@ h3 {
 main section {
     display: flex;
     justify-content: space-around;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 footer {
@@ -108,6 +122,9 @@ footer {
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
+    background: linear-gradient(to right, var(--color-theme),var(--color-back-active));;
+    box-shadow: 0px 2px 0px 4px var(--color-active);
+    margin-top: 20px;
 }
 
 footer p {
@@ -117,7 +134,7 @@ footer p {
 
 in p {
     margin-bottom: 16px;
-}
+}    
 
 /* Media Query: Estilos a aplicar sólo en pantallas mayores a 400px */
 @media (min-width: 400px) {

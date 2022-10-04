@@ -1,0 +1,66 @@
+#nombreUsuario {
+    border-radius: 5px;
+    padding-right: 78px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-width: 1px;
+    font-size: small;
+}
+
+#emailUsuario {
+    border-radius: 5px;
+    padding-right: 78px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-width: 1px;
+    font-size: small;
+}
+
+#areaTexto {
+    border-radius: 5px;
+    font-size: small;
+}
+#button-clean {
+    border-radius: 7px;
+    padding: 7px;
+    background-color: #00594c;
+    border-width: 0px;
+    color: white;
+    font-weight: 600;
+    padding-right: 12px;
+    padding-left: 12px;
+    margin-top: 7px;
+    margin-bottom: 40px;
+}
+
+#enviarMensaje{
+    border-radius: 7px;
+    padding: 7px;
+    background-color: #00594c;
+    border-width: 0px;
+    color: white;
+    font-weight: 600;
+    padding-right: 12px;
+    padding-left: 12px;
+    margin-top: 7px;
+    margin-bottom: 40px;
+    margin-left: 5px;
+}
+
+#formulario {
+    text-align: center;
+}
+
+#erroremail {
+    padding: 7px;
+    border-radius: 10px;
+    border-style: ridge;
+    border-width: 1px;
+    margin: 20px;
+    padding-right: 90px;
+    padding-left: 90px;
+    background-color: #dc3545;
+    color: white;
+    font-size: x-small;
+    margin-bottom: 30px;
+}
