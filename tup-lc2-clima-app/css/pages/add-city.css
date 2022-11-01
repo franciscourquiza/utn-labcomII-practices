@@ -11,7 +11,7 @@
     align-items: center;
 }
 
-#input-agregar {
+#agregar {
     border-radius: 7px;
     padding: 7px;
     background-color: #00594c;
@@ -30,40 +30,42 @@
 }
 
 #exito {
-    border-radius: 12px;
+    border-radius: 20px;
     padding: 7px;
     background-color: #28a745;
     border-width: 0px;
     color: white;
-    padding-right: 80px;
-    padding-left: 80px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    font-size: small;
+    font-size: medium;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: none;
 }
 
 #error {
-    border-radius: 12px;
+    border-radius: 20px;
     padding: 7px;
     background-color: #dc3545;
     border-width: 0px;
     color: white;
-    padding-right: 10px;
-    padding-left: 10px;
-    margin-top: 50px;
-    margin-bottom: 20px;
-    font-size: small; 
+    font-size: medium; 
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: none;
 }
 
 #repetida {
-    border-radius: 12px;
+    border-radius: 20px;
     padding: 7px;
     background-color: #ffc107;
     border-width: 0px;
     color: white;
-    padding-right: 14px;
-    padding-left: 14px;
-    margin-top: 50px;
-    margin-bottom: 20px;
-    font-size: small; 
+    font-size: medium; 
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: none;
+}
+
+#divpadre {
+    padding-bottom: 50px;
+    width: 500px;
 }

@@ -47,10 +47,6 @@
     margin-left: 5px;
 }
 
-#formulario {
-    text-align: center;
-}
-
 #erroremail {
     padding: 7px;
     border-radius: 10px;
@@ -63,4 +59,20 @@
     color: white;
     font-size: x-small;
     margin-bottom: 30px;
+}
+
+#formulario {
+    text-align: center;
+}
+
+#labelnombre {
+    padding-right: 190px;
+}
+
+#labelemail {
+    padding-right: 210px;
+}
+
+#labelmensaje {
+    padding-right: 190px;
 }
